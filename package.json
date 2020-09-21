@@ -9,7 +9,7 @@
     "v:patch": "npm version patch -m \"Release v%s\"",
     "build": "npm run build-dev && npm run build-prod",
     "build-dev": "webpack --mode=development",
-    "build-prod": "webpack --mode=production",
+    "build-prod": "webpack --mode=development",
     "start": "webpack-dev-server --open --progress --colors"
   },
   "files": [
